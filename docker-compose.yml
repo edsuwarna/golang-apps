@@ -5,3 +5,5 @@ services:
       dockerfile: Dockerfile
     container_name: golang-hello-world
     image: golang-hello-world:latest
+    ports:
+      - "8080:8080"
